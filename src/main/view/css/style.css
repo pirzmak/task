@@ -1,0 +1,30 @@
+.node {
+    min-height: 3rem;
+}
+
+.inner {
+    min-height: 3rem;
+    margin-top: 0.5rem;
+    border: 1px solid royalblue;
+    border-radius: 3px;
+    background-color: lightgrey;
+    line-height: 3rem;
+    padding-left: 2rem;
+    user-select: none;
+    cursor: pointer;
+}
+
+.lvl0 {
+    margin-left: 1rem;
+    width: calc(100% - 3rem);
+}
+
+.lvl1 {
+    margin-left: 2rem;
+    width: calc(100% - 2rem);
+}
+
+.lvl2 {
+    margin-left: 3rem;
+    width: calc(100% - 3rem);
+}
